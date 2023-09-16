@@ -1,90 +1,90 @@
-23:30:27,083 DEBUG InternalLoggerFactory:89 - Using Log4J as the default logging framework
-23:30:27,097 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
-23:30:27,098 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
-23:30:27,106 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4fc142ec
-23:30:27,154 DEBUG PlatformDependent0:497 - -Dio.netty.noUnsafe: false
-23:30:27,155 DEBUG PlatformDependent0:1001 - Java version: 11
-23:30:27,160 DEBUG PlatformDependent0:137 - sun.misc.Unsafe.theUnsafe: available
-23:30:27,161 DEBUG PlatformDependent0:161 - sun.misc.Unsafe.copyMemory: available
-23:30:27,162 DEBUG PlatformDependent0:193 - sun.misc.Unsafe.storeFence: available
-23:30:27,163 DEBUG PlatformDependent0:236 - java.nio.Buffer.address: available
-23:30:27,164 DEBUG PlatformDependent0:321 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
-23:30:27,166 DEBUG PlatformDependent0:386 - java.nio.Bits.unaligned: available, true
-23:30:27,168 DEBUG PlatformDependent0:453 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @ed7f8b4
-23:30:27,170 DEBUG PlatformDependent0:483 - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
-23:30:27,170 DEBUG PlatformDependent:1159 - sun.misc.Unsafe: available
-23:30:27,172 DEBUG PlatformDependent:1270 - maxDirectMemory: 3172990976 bytes (maybe)
-23:30:27,176 DEBUG PlatformDependent:1289 - -Dio.netty.tmpdir: C:\Users\BOSU\AppData\Local\Temp (java.io.tmpdir)
-23:30:27,176 DEBUG PlatformDependent:1368 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-23:30:27,177 DEBUG PlatformDependent:1119 - Platform: Windows
-23:30:27,178 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
-23:30:27,178 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-23:30:27,181 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
-23:30:27,181 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
-23:30:27,201 DEBUG PlatformDependent:1010 - org.jctools-core.MpscChunkedArrayQueue: available
-23:30:27,244 DEBUG InternalThreadLocalMap:100 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-23:30:27,244 DEBUG InternalThreadLocalMap:101 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-23:30:27,266 DEBUG JdkSslContext:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1] 
-23:30:27,266 DEBUG JdkSslContext:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
-23:30:27,295 DEBUG GlobalEventExecutor:53 - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
-23:30:27,364 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
-23:30:27,382 DEBUG NioEventLoop:110 - -Dio.netty.noKeySetOptimization: false
-23:30:27,382 DEBUG NioEventLoop:111 - -Dio.netty.selectorAutoRebuildThreshold: 512
-23:30:27,453 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 8
-23:30:27,454 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 8
-23:30:27,454 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
-23:30:27,454 DEBUG PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
-23:30:27,454 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
-23:30:27,454 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
-23:30:27,454 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
-23:30:27,455 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-23:30:27,455 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
-23:30:27,456 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-23:30:27,457 DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
-23:30:27,457 DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-23:30:27,479 DEBUG ByteBufUtil:89 - -Dio.netty.allocator.type: pooled
-23:30:27,479 DEBUG ByteBufUtil:98 - -Dio.netty.threadLocalDirectBufferSize: 0
-23:30:27,479 DEBUG ByteBufUtil:101 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-23:30:28,721 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 46008 (auto-detected)
-23:30:28,727 DEBUG NetUtil:148 - -Djava.net.preferIPv4Stack: false
-23:30:28,727 DEBUG NetUtil:149 - -Djava.net.preferIPv6Addresses: false
-23:30:29,357 DEBUG NetUtilInitializations:145 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-23:30:29,360 DEBUG NetUtil:206 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-23:30:29,403 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: d4:6a:6a:ff:fe:a2:7a:39 (auto-detected)
-23:30:29,534 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
-23:30:29,535 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
-23:30:29,536 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@20c53f1b
-23:30:29,608 DEBUG Recycler:96 - -Dio.netty.recycler.maxCapacityPerThread: 4096
-23:30:29,609 DEBUG Recycler:97 - -Dio.netty.recycler.ratio: 8
-23:30:29,610 DEBUG Recycler:98 - -Dio.netty.recycler.chunkSize: 32
-23:30:29,611 DEBUG Recycler:99 - -Dio.netty.recycler.blocking: false
-23:30:29,611 DEBUG Recycler:100 - -Dio.netty.recycler.batchFastThreadLocalOnly: true
-23:30:36,406 DEBUG Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
-23:30:36,695 DEBUG ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x8a85d41faddec81a
-23:30:36,799  INFO devpinoyLogger:77 - launching chrome broswer
-23:30:46,901  INFO devpinoyLogger:94 - Open URL from config file
-23:30:46,961 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-23:30:46,963 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-23:30:46,967 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-23:30:46,971 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-23:30:46,972 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/BOSU/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-23:30:48,886 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-23:30:48,887 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-23:30:48,888 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-23:30:48,888 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-23:30:48,889 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/BOSU/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-23:30:52,644 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-23:30:52,646 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-23:30:52,647 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-23:30:52,648 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-23:30:52,649 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/BOSU/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-23:30:55,856 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-23:30:55,858 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-23:30:55,860 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-23:30:55,862 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-23:30:55,863 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/BOSU/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-23:30:57,055 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-23:30:57,057 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-23:30:57,059 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-23:30:57,060 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-23:30:57,061 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/BOSU/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+23:40:51,486 DEBUG InternalLoggerFactory:89 - Using Log4J as the default logging framework
+23:40:51,508 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+23:40:51,509 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+23:40:51,518 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6972c30a
+23:40:51,572 DEBUG PlatformDependent0:497 - -Dio.netty.noUnsafe: false
+23:40:51,576 DEBUG PlatformDependent0:1001 - Java version: 11
+23:40:51,580 DEBUG PlatformDependent0:137 - sun.misc.Unsafe.theUnsafe: available
+23:40:51,582 DEBUG PlatformDependent0:161 - sun.misc.Unsafe.copyMemory: available
+23:40:51,583 DEBUG PlatformDependent0:193 - sun.misc.Unsafe.storeFence: available
+23:40:51,585 DEBUG PlatformDependent0:236 - java.nio.Buffer.address: available
+23:40:51,586 DEBUG PlatformDependent0:321 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+23:40:51,588 DEBUG PlatformDependent0:386 - java.nio.Bits.unaligned: available, true
+23:40:51,594 DEBUG PlatformDependent0:453 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @58ea606c
+23:40:51,597 DEBUG PlatformDependent0:483 - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+23:40:51,597 DEBUG PlatformDependent:1159 - sun.misc.Unsafe: available
+23:40:51,600 DEBUG PlatformDependent:1270 - maxDirectMemory: 3172990976 bytes (maybe)
+23:40:51,603 DEBUG PlatformDependent:1289 - -Dio.netty.tmpdir: C:\Users\BOSU\AppData\Local\Temp (java.io.tmpdir)
+23:40:51,603 DEBUG PlatformDependent:1368 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+23:40:51,604 DEBUG PlatformDependent:1119 - Platform: Windows
+23:40:51,608 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+23:40:51,609 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+23:40:51,612 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+23:40:51,612 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+23:40:51,642 DEBUG PlatformDependent:1010 - org.jctools-core.MpscChunkedArrayQueue: available
+23:40:51,693 DEBUG InternalThreadLocalMap:100 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+23:40:51,693 DEBUG InternalThreadLocalMap:101 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+23:40:51,735 DEBUG JdkSslContext:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1] 
+23:40:51,735 DEBUG JdkSslContext:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+23:40:51,764 DEBUG GlobalEventExecutor:53 - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+23:40:51,794 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+23:40:51,810 DEBUG NioEventLoop:110 - -Dio.netty.noKeySetOptimization: false
+23:40:51,811 DEBUG NioEventLoop:111 - -Dio.netty.selectorAutoRebuildThreshold: 512
+23:40:51,882 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 8
+23:40:51,882 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 8
+23:40:51,882 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+23:40:51,882 DEBUG PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+23:40:51,882 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+23:40:51,882 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+23:40:51,883 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+23:40:51,883 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+23:40:51,883 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+23:40:51,883 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+23:40:51,883 DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+23:40:51,884 DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+23:40:51,907 DEBUG ByteBufUtil:89 - -Dio.netty.allocator.type: pooled
+23:40:51,908 DEBUG ByteBufUtil:98 - -Dio.netty.threadLocalDirectBufferSize: 0
+23:40:51,908 DEBUG ByteBufUtil:101 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+23:40:53,099 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 41512 (auto-detected)
+23:40:53,104 DEBUG NetUtil:148 - -Djava.net.preferIPv4Stack: false
+23:40:53,104 DEBUG NetUtil:149 - -Djava.net.preferIPv6Addresses: false
+23:40:53,699 DEBUG NetUtilInitializations:145 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+23:40:53,701 DEBUG NetUtil:206 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+23:40:53,737 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: d4:6a:6a:ff:fe:a2:7a:39 (auto-detected)
+23:40:53,868 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+23:40:53,869 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+23:40:53,869 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@21f4437e
+23:40:53,953 DEBUG Recycler:96 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+23:40:53,954 DEBUG Recycler:97 - -Dio.netty.recycler.ratio: 8
+23:40:53,954 DEBUG Recycler:98 - -Dio.netty.recycler.chunkSize: 32
+23:40:53,957 DEBUG Recycler:99 - -Dio.netty.recycler.blocking: false
+23:40:53,957 DEBUG Recycler:100 - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+23:40:59,189 DEBUG Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+23:40:59,499 DEBUG ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0xf09907fd61858cca
+23:40:59,597  INFO devpinoyLogger:77 - launching chrome broswer
+23:41:05,014  INFO devpinoyLogger:94 - Open URL from config file
+23:41:05,095 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+23:41:05,099 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+23:41:05,106 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+23:41:05,108 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+23:41:05,109 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/BOSU/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+23:41:07,845 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+23:41:07,846 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+23:41:07,847 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+23:41:07,848 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+23:41:07,848 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/BOSU/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+23:41:11,283 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+23:41:11,283 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+23:41:11,284 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+23:41:11,285 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+23:41:11,286 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/BOSU/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+23:41:14,549 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+23:41:14,551 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+23:41:14,552 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+23:41:14,553 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+23:41:14,553 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/BOSU/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+23:41:15,756 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+23:41:15,757 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+23:41:15,758 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+23:41:15,759 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+23:41:15,759 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/BOSU/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

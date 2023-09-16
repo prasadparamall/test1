@@ -28,7 +28,7 @@ import utilities.Utility;
 
 
 
-public class CustomListeners extends BaseClass implements ITestListener {                //ISuiteListener  when we want to sent emails, use this
+public class CustomListeners extends BaseClass implements ITestListener,ISuiteListener {                // ,ISuiteListener  when we want to sent emails, use this
 
 	public 	String messageBody;
 	public void onFinish(ITestContext arg0) {
@@ -101,7 +101,8 @@ public class CustomListeners extends BaseClass implements ITestListener {       
 		 
 		try {
 			messageBody = "http://" + InetAddress.getLocalHost().getHostAddress()
-					+ ":8080/job/POMWorkShopDemoExcel/Extent_20Report/";
+					+ ":8080/job/test1/Extent_20Report/";
+			
 		} catch (UnknownHostException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
