@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="demoqa">
+
+<groups>
+<run>
+<include name="regression"></include>
+</run>
+</groups>
+
+<listeners>
+<listener class-name="listenersClass.CustomListeners"></listener>
+</listeners>
+
+  <test name="TestBox">
+    <classes>
+      <class name="testcacses.OpenBrowserAndURL"/>
+      <class name="testcacses.TextBox_0001_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
