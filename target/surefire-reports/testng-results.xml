@@ -2,38 +2,40 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-16T21:11:08 IST" name="demoqa" finished-at="2023-09-16T21:11:31 IST" duration-ms="22639">
+  <suite started-at="2023-09-17T00:50:25 IST" name="demoqa" finished-at="2023-09-17T00:50:49 IST" duration-ms="24166">
     <groups>
       <group name="functional">
-        <method signature="OpenBrowserAndURL.openBrowserAndURL()[pri:0, instance:testcacses.OpenBrowserAndURL@1b065145]" name="openBrowserAndURL" class="testcacses.OpenBrowserAndURL"/>
+        <method signature="OpenBrowserAndURL.openBrowserAndURL()[pri:0, instance:testcacses.OpenBrowserAndURL@636e8cc]" name="openBrowserAndURL" class="testcacses.OpenBrowserAndURL"/>
       </group> <!-- functional -->
       <group name="regression">
-        <method signature="OpenBrowserAndURL.openBrowserAndURL()[pri:0, instance:testcacses.OpenBrowserAndURL@1b065145]" name="openBrowserAndURL" class="testcacses.OpenBrowserAndURL"/>
-        <method signature="TextBox_0001_Test.textBox_Link_Click()[pri:1, instance:testcacses.TextBox_0001_Test@6bb75258]" name="textBox_Link_Click" class="testcacses.TextBox_0001_Test"/>
-        <method signature="TextBox_0001_Test.textBox_Fill_The_Form_And_Print(java.util.Hashtable)[pri:2, instance:testcacses.TextBox_0001_Test@6bb75258]" name="textBox_Fill_The_Form_And_Print" class="testcacses.TextBox_0001_Test"/>
-        <method signature="TextBox_0001_Test.teardown()[pri:3, instance:testcacses.TextBox_0001_Test@6bb75258]" name="teardown" class="testcacses.TextBox_0001_Test"/>
+        <method signature="OpenBrowserAndURL.openBrowserAndURL()[pri:0, instance:testcacses.OpenBrowserAndURL@636e8cc]" name="openBrowserAndURL" class="testcacses.OpenBrowserAndURL"/>
+        <method signature="TextBox_0001_Test.textBox_Link_Click()[pri:1, instance:testcacses.TextBox_0001_Test@1bb1fde8]" name="textBox_Link_Click" class="testcacses.TextBox_0001_Test"/>
+        <method signature="TextBox_0001_Test.textBox_Fill_The_Form_And_Print(java.util.Hashtable)[pri:2, instance:testcacses.TextBox_0001_Test@1bb1fde8]" name="textBox_Fill_The_Form_And_Print" class="testcacses.TextBox_0001_Test"/>
+        <method signature="TextBox_0001_Test.teardown()[pri:3, instance:testcacses.TextBox_0001_Test@1bb1fde8]" name="teardown" class="testcacses.TextBox_0001_Test"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="OpenBrowserAndURL.openBrowserAndURL()[pri:0, instance:testcacses.OpenBrowserAndURL@1b065145]" name="openBrowserAndURL" class="testcacses.OpenBrowserAndURL"/>
-        <method signature="TextBox_0001_Test.teardown()[pri:3, instance:testcacses.TextBox_0001_Test@6bb75258]" name="teardown" class="testcacses.TextBox_0001_Test"/>
+        <method signature="OpenBrowserAndURL.openBrowserAndURL()[pri:0, instance:testcacses.OpenBrowserAndURL@636e8cc]" name="openBrowserAndURL" class="testcacses.OpenBrowserAndURL"/>
+        <method signature="TextBox_0001_Test.textBox_Link_Click()[pri:1, instance:testcacses.TextBox_0001_Test@1bb1fde8]" name="textBox_Link_Click" class="testcacses.TextBox_0001_Test"/>
+        <method signature="TextBox_0001_Test.textBox_Fill_The_Form_And_Print(java.util.Hashtable)[pri:2, instance:testcacses.TextBox_0001_Test@1bb1fde8]" name="textBox_Fill_The_Form_And_Print" class="testcacses.TextBox_0001_Test"/>
+        <method signature="TextBox_0001_Test.teardown()[pri:3, instance:testcacses.TextBox_0001_Test@1bb1fde8]" name="teardown" class="testcacses.TextBox_0001_Test"/>
       </group> <!-- smoke -->
       <group name="sanity">
-        <method signature="OpenBrowserAndURL.openBrowserAndURL()[pri:0, instance:testcacses.OpenBrowserAndURL@1b065145]" name="openBrowserAndURL" class="testcacses.OpenBrowserAndURL"/>
+        <method signature="OpenBrowserAndURL.openBrowserAndURL()[pri:0, instance:testcacses.OpenBrowserAndURL@636e8cc]" name="openBrowserAndURL" class="testcacses.OpenBrowserAndURL"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2023-09-16T21:11:08 IST" name="TestBox" finished-at="2023-09-16T21:11:31 IST" duration-ms="22639">
+    <test started-at="2023-09-17T00:50:25 IST" name="TestBox" finished-at="2023-09-17T00:50:49 IST" duration-ms="24166">
       <class name="testcacses.OpenBrowserAndURL">
-        <test-method signature="openBrowserAndURL()[pri:0, instance:testcacses.OpenBrowserAndURL@1b065145]" started-at="2023-09-16T21:11:08 IST" name="openBrowserAndURL" finished-at="2023-09-16T21:11:21 IST" duration-ms="12539" status="PASS">
+        <test-method signature="openBrowserAndURL()[pri:0, instance:testcacses.OpenBrowserAndURL@636e8cc]" started-at="2023-09-17T00:50:25 IST" name="openBrowserAndURL" finished-at="2023-09-17T00:50:39 IST" duration-ms="13923" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowserAndURL -->
       </class> <!-- testcacses.OpenBrowserAndURL -->
       <class name="testcacses.TextBox_0001_Test">
-        <test-method signature="textBox_Link_Click()[pri:1, instance:testcacses.TextBox_0001_Test@6bb75258]" started-at="2023-09-16T21:11:21 IST" name="textBox_Link_Click" finished-at="2023-09-16T21:11:23 IST" duration-ms="1317" status="PASS">
+        <test-method signature="textBox_Link_Click()[pri:1, instance:testcacses.TextBox_0001_Test@1bb1fde8]" started-at="2023-09-17T00:50:39 IST" name="textBox_Link_Click" finished-at="2023-09-17T00:50:41 IST" duration-ms="1457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- textBox_Link_Click -->
-        <test-method signature="textBox_Fill_The_Form_And_Print(java.util.Hashtable)[pri:2, instance:testcacses.TextBox_0001_Test@6bb75258]" started-at="2023-09-16T21:11:23 IST" name="textBox_Fill_The_Form_And_Print" data-provider="DemoQAdata" finished-at="2023-09-16T21:11:27 IST" duration-ms="3386" status="PASS">
+        <test-method signature="textBox_Fill_The_Form_And_Print(java.util.Hashtable)[pri:2, instance:testcacses.TextBox_0001_Test@1bb1fde8]" started-at="2023-09-17T00:50:41 IST" name="textBox_Fill_The_Form_And_Print" data-provider="DemoQAdata" finished-at="2023-09-17T00:50:44 IST" duration-ms="3345" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,7 +46,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- textBox_Fill_The_Form_And_Print -->
-        <test-method signature="textBox_Fill_The_Form_And_Print(java.util.Hashtable)[pri:2, instance:testcacses.TextBox_0001_Test@6bb75258]" started-at="2023-09-16T21:11:27 IST" name="textBox_Fill_The_Form_And_Print" data-provider="DemoQAdata" finished-at="2023-09-16T21:11:30 IST" duration-ms="3210" status="PASS">
+        <test-method signature="textBox_Fill_The_Form_And_Print(java.util.Hashtable)[pri:2, instance:testcacses.TextBox_0001_Test@1bb1fde8]" started-at="2023-09-17T00:50:44 IST" name="textBox_Fill_The_Form_And_Print" data-provider="DemoQAdata" finished-at="2023-09-17T00:50:48 IST" duration-ms="3361" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,7 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- textBox_Fill_The_Form_And_Print -->
-        <test-method signature="teardown()[pri:3, instance:testcacses.TextBox_0001_Test@6bb75258]" started-at="2023-09-16T21:11:30 IST" name="teardown" finished-at="2023-09-16T21:11:31 IST" duration-ms="697" status="PASS">
+        <test-method signature="teardown()[pri:3, instance:testcacses.TextBox_0001_Test@1bb1fde8]" started-at="2023-09-17T00:50:48 IST" name="teardown" finished-at="2023-09-17T00:50:49 IST" duration-ms="605" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

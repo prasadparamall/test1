@@ -1,7 +1,11 @@
+utilities\MonitoringMail$SMTPAuthenticator.class
 base\BaseClass.class
+utilities\MonitoringMail.class
 utilities\ExtentManager.class
+utilities\TestConfig.class
 listenersClass\CustomListeners.class
 pages\TextBox_0001_Page.class
 utilities\ExcelReader.class
+utilities\MonitoringMail$1.class
 utilities\Paths.class
 utilities\Utility.class

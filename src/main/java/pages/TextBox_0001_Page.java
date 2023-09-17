@@ -25,6 +25,7 @@ public class TextBox_0001_Page extends BaseClass {
 		Thread.sleep(1000);
 		iteratorgetText1("printoutput_xpath");
 		Thread.sleep(1000);
+		softassert.assertFalse(true);
 	}
 	
 	
