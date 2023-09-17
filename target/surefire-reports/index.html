@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-demoqa" class="navigator-link">
-              <span class="suite-name border-passed">demoqa</span>
+              <span class="suite-name border-failed">demoqa</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-demoqa" class="hide-methods failed suite-demoqa"> (hide)</a> <!-- hide-methods failed suite-demoqa -->
+                      <a href="#" panel-name="suite-demoqa" class="show-methods failed suite-demoqa"> (show)</a> <!-- show-methods failed suite-demoqa -->
+                    </span>
+                    <div class="method-list-content failed suite-demoqa">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-demoqa" title="testcacses.TextBox_0001_Test" class="method navigator-link" hash-for-method="textBox_Fill_The_Form_And_Print({paddress=1234567899, email=def@gmail.com, caddress=dsd9@09, fname=def})">textBox_Fill_The_Form_And_Print({paddress=1234567899, email=def@gmail.com, caddress=dsd9@09, fname=def})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-demoqa" title="testcacses.TextBox_0001_Test" class="method navigator-link" hash-for-method="textBox_Fill_The_Form_And_Print({paddress=12345678, email=abc@gmail.com, caddress=ab:3737, fname=abc})">textBox_Fill_The_Form_And_Print({paddress=12345678, email=abc@gmail.com, caddress=ab:3737, fname=abc})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-demoqa -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -113,16 +132,6 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-demoqa" title="testcacses.TextBox_0001_Test" class="method navigator-link" hash-for-method="textBox_Fill_The_Form_And_Print({paddress=1234567899, email=def@gmail.com, caddress=dsd9@09, fname=def})">textBox_Fill_The_Form_And_Print({paddress=1234567899, email=def@gmail.com, caddress=dsd9@09, fname=def})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-demoqa" title="testcacses.TextBox_0001_Test" class="method navigator-link" hash-for-method="textBox_Fill_The_Form_And_Print({paddress=12345678, email=abc@gmail.com, caddress=ab:3737, fname=abc})">textBox_Fill_The_Form_And_Print({paddress=12345678, email=abc@gmail.com, caddress=ab:3737, fname=abc})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-demoqa" title="testcacses.TextBox_0001_Test" class="method navigator-link" hash-for-method="textBox_Link_Click">textBox_Link_Click</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -138,6 +147,42 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-demoqa" class="panel demoqa">
+          <div class="suite-demoqa-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcacses.TextBox_0001_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="textBox_Fill_The_Form_And_Print({paddress=1234567899, email=def@gmail.com, caddress=dsd9@09, fname=def})">
+                  </a> <!-- textBox_Fill_The_Form_And_Print({paddress=1234567899, email=def@gmail.com, caddress=dsd9@09, fname=def}) -->
+                  <span class="method-name">textBox_Fill_The_Form_And_Print</span>
+                  <span class="parameters">({paddress=1234567899, email=def@gmail.com, caddress=dsd9@09, fname=def})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at pages.TextBox_0001_Page.textbox_Fill_The_Form_And_Print(TextBox_0001_Page.java:25)
+	at testcacses.TextBox_0001_Test.textBox_Fill_The_Form_And_Print(TextBox_0001_Test.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textBox_Fill_The_Form_And_Print({paddress=12345678, email=abc@gmail.com, caddress=ab:3737, fname=abc})">
+                  </a> <!-- textBox_Fill_The_Form_And_Print({paddress=12345678, email=abc@gmail.com, caddress=ab:3737, fname=abc}) -->
+                  <span class="method-name">textBox_Fill_The_Form_And_Print</span>
+                  <span class="parameters">({paddress=12345678, email=abc@gmail.com, caddress=ab:3737, fname=abc})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at pages.TextBox_0001_Page.textbox_Fill_The_Form_And_Print(TextBox_0001_Page.java:25)
+	at testcacses.TextBox_0001_Test.textBox_Fill_The_Form_And_Print(TextBox_0001_Test.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-demoqa-class-failed -->
           <div class="suite-demoqa-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -149,22 +194,6 @@
                   <a name="teardown">
                   </a> <!-- teardown -->
                   <span class="method-name">teardown</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="textBox_Fill_The_Form_And_Print({paddress=1234567899, email=def@gmail.com, caddress=dsd9@09, fname=def})">
-                  </a> <!-- textBox_Fill_The_Form_And_Print({paddress=1234567899, email=def@gmail.com, caddress=dsd9@09, fname=def}) -->
-                  <span class="method-name">textBox_Fill_The_Form_And_Print</span>
-                  <span class="parameters">({paddress=1234567899, email=def@gmail.com, caddress=dsd9@09, fname=def})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="textBox_Fill_The_Form_And_Print({paddress=12345678, email=abc@gmail.com, caddress=ab:3737, fname=abc})">
-                  </a> <!-- textBox_Fill_The_Form_And_Print({paddress=12345678, email=abc@gmail.com, caddress=ab:3737, fname=abc}) -->
-                  <span class="method-name">textBox_Fill_The_Form_And_Print</span>
-                  <span class="parameters">({paddress=12345678, email=abc@gmail.com, caddress=ab:3737, fname=abc})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -317,28 +346,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'openBrowserAndURL')
 data.setCell(0, 2, 'testcacses.OpenBrowserAndURL')
-data.setCell(0, 3, 13923);
+data.setCell(0, 3, 13142);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'textBox_Fill_The_Form_And_Print')
+data.setCell(1, 1, 'textBox_Link_Click')
 data.setCell(1, 2, 'testcacses.TextBox_0001_Test')
-data.setCell(1, 3, 3361);
+data.setCell(1, 3, 1573);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'textBox_Fill_The_Form_And_Print')
 data.setCell(2, 2, 'testcacses.TextBox_0001_Test')
-data.setCell(2, 3, 3345);
+data.setCell(2, 3, 981);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'textBox_Link_Click')
+data.setCell(3, 1, 'textBox_Fill_The_Form_And_Print')
 data.setCell(3, 2, 'testcacses.TextBox_0001_Test')
-data.setCell(3, 3, 1457);
+data.setCell(3, 3, 965);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'teardown')
 data.setCell(4, 2, 'testcacses.TextBox_0001_Test')
-data.setCell(4, 3, 605);
+data.setCell(4, 3, 525);
 window.suiteTableData['demoqa']= { tableData: data, tableDiv: 'times-div-demoqa'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 22 seconds</span>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-demoqa">
               </div> <!-- times-div-demoqa -->
             </div> <!-- times-div -->
@@ -349,6 +378,26 @@ return data;
             <span class="header-content">Reporter output for demoqa</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">textBox_Fill_The_Form_And_Print({paddress=1234567899, email=def@gmail.com, caddress=dsd9@09, fname=def})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click to see Screenshot</span>
+                <span class="reporter-method-output"><a target="_blank" href=Sun_Sep_17_23_45_46_IST_2023.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=Sun_Sep_17_23_45_46_IST_2023.jpg><img src=Sun_Sep_17_23_45_46_IST_2023.jpg height=200 width=200></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">textBox_Fill_The_Form_And_Print({paddress=12345678, email=abc@gmail.com, caddress=ab:3737, fname=abc})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click to see Screenshot</span>
+                <span class="reporter-method-output"><a target="_blank" href=Sun_Sep_17_23_45_44_IST_2023.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=Sun_Sep_17_23_45_44_IST_2023.jpg><img src=Sun_Sep_17_23_45_44_IST_2023.jpg height=200 width=200></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-demoqa" class="panel">
@@ -374,19 +423,23 @@ return data;
               <div class="chronological-class-name">testcacses.TextBox_0001_Test</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">textBox_Link_Click</span>
-                <span class="method-start">14636 ms</span>
+                <span class="method-start">14127 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">textBox_Fill_The_Form_And_Print({paddress=12345678, email=abc@gmail.com, caddress=ab:3737, fname=abc})</span>
-                <span class="method-start">16385 ms</span>
+                <span class="method-start">15947 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">textBox_Fill_The_Form_And_Print({paddress=1234567899, email=def@gmail.com, caddress=dsd9@09, fname=def})</span>
-                <span class="method-start">19801 ms</span>
+                <span class="method-start">17572 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">teardown</span>
-                <span class="method-start">23265 ms</span>
+                <span class="method-start">19154 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
